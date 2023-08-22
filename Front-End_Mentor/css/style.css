@@ -1,0 +1,56 @@
+body{
+    background-color:hsl(233, 97%, 13%);
+    
+}
+#main{
+    margin: auto;
+    padding: 0;
+    border-radius: 7px;
+}
+#div_tudo{
+    margin: auto;
+    padding: 0;
+    background-color:hsl(244, 38%, 16%);
+}
+
+#img_mobile{
+    width: 375px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+#imagem{
+    background-color: hsl(277, 59%, 34%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+img{
+    mix-blend-mode: overlay;
+}
+
+#img_desktop{
+    height: 524px;
+    width: 570px;
+    margin: 0;
+}
+
+h1{
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+}
+
+.titulo,p{
+    align-self: center;
+}
+
+strong{
+    color:hsl(277, 64%, 61%);
+    font-weight: 700;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+}

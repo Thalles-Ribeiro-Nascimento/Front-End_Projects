@@ -1,0 +1,14 @@
+.principal{
+    background-color: white;
+}
+footer{
+    background-image: url(imagens/bck-footer.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    height: 50px;
+}
+.botao_do_section{
+    background-color: #7565fe;
+    color: white;
+    font-weight: 700;
+}
