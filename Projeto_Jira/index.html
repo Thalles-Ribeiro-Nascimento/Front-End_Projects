@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/estilo.css">
+    <title>GiroVerde</title>
+</head>
+<body>
+    <div id="principal">
+        <header>
+            <div id="login_coletador">
+                <div id="imagem_do_login">
+                    <a href="#"><img src="icon/64_login.png" alt="Imagem do usuário"></a>
+                </div>
+                <div id="nome_e_nota_coletador">
+                    <h4 id="nome_coletador">Nome do coletador</h4>
+                    <div id="nota_estrela">
+                        <p>4.0</p>
+                        <img id="estrela"src="icon/estrela-16px.png" alt="Nota do usuário">
+                    </div>
+                </div>
+            </div>
+            <div id="menu">
+                <nav>
+                    <a class="botoes" href="#">Mapa de coletas</a>
+                    <a class="botoes" href="#">Perfil</a>
+                    <a href="#"><img src="icon/32px_mensagem.png" alt="Nova mensagem"></a>
+                    <a href="#"><img src="icon/32px-sino.png" alt="NOva notificação"></a>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <article class="art_esquerdo">
+                <div class="saida">
+                    <a href="#"><img src="icon/16px_fechar.png" alt=""></a>
+                </div>
+                <div id="card">
+                    <div class="id_da_coleta">
+                        <h4>ID da coleta:</h4>
+                        <div class="numero">
+                            <p>001</p>
+                        </div>    
+                    </div>
+                    <div class="data_hora_endereco">
+                        <div class="data_hora">
+                            <div class="data">
+                                <h4 class="data_title">Data:</h4>
+                                <div class="dia">
+                                    <p>10/07/2023</p>
+                                </div>
+                            </div>
+                            <div class="hora">
+                                <h4 class="title_hora">Hora:</h4>
+                                <div class="horario">
+                                    <p>08:30</p>
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="endereco">
+                            <h4>Endereço:</h4>
+                            <p>Rua Senac - 2023(ADS)</p>
+                        </div>
+                    </div>
+                    <div class="nome_descartador">
+                        <div id="imagem_do_login">
+                            <a href="#"><img src="icon/64_login.png" alt="Imagem do usuário"></a>
+                        </div>
+                        <div id="nome_e_nota_descartador">
+                            <h4 id="nome_descarte">Nome do descartador</h4>
+                            <div id="nota_estrela">
+                                <p>4.0</p>
+                                <img id="estrela"src="icon/estrela-16px.png" alt="Nota do usuário">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="descricao">
+                        <h4 class="title_descricao">Descrição completa:</h4>
+                        <p class="text_descricao">Olá! Gostaria de agendar a coleta de materiais recicláveis, incluindo papelão, vidros e plásticos para a próxima quinta-feira de manhã.</p>
+                    </div>
+                    <div class="quantidade_residual">
+                        <h4 class="title_residual">Quantidade de resíduos:</h4>
+                        <div class="input">
+                            <p class="text_input">Estimativa:</p>
+                            <input type="text" placeholder="Digite a estimativa">
+                            <p class="text_input">Valor exato:</p>
+                            <input type="text" placeholder="Digite o valor">
+                        </div>
+                    </div>
+                    <div class="foto_residuo">
+                        <h4 class="title_foto">Foto do resíduo:</h4>
+                        <div class="imagem_residuo">
+                            <img src="Fotos/No Image.png" alt="">
+                        </div>    
+                    </div>
+                </div>
+                <div class="botoes_body">
+                    <a class="button" href="#">Comunicar</a>
+                    <a class="button" href="#">Cancelar coleta</a>
+                </div>    
+            </article>
+            <article class="art_direito">
+                <h4>Planejamento diário</h4>
+                <div class="imagem_mapa">
+                    <img class="imagem_mp" src="Fotos/mapa_planejamento.png" alt="">
+                </div>
+                <p class="text_mapa">Mapeamento das coletas agendadas para hoje: Dia 10/07/2023.</p>
+                <div class="botoes_body">
+                    <a class="button" href="#">Abrir mapa</a>
+                    <a class="button" href="#">Calcular rota</a>
+                </div> 
+            </article>
+        </section>
+    </div>
+</body>
+</html>

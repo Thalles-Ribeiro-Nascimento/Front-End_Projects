@@ -1,0 +1,271 @@
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color:gainsboro;
+    display: flex;
+    justify-content: space-around;
+}
+h4{
+    font-weight: 50;
+}
+#login_coletador{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    padding-left: 30px;
+}
+
+#estrela{
+    margin-left: 3px;
+    margin-bottom: 19px;
+}
+
+#nota_estrela{
+    display: flex;
+    align-items: end;
+    height: 38%;
+}
+
+#imagem_do_login{
+    padding-top: 10px;
+    padding-left: 25px;
+    height: 100%;
+    width: 10%;
+}
+
+ 
+#nome_coletador{
+    height: 1%;  /*Coloquei o height de 1% para poder juntar o texto com a nota e a estrela */
+}
+
+#nome_e_nota_coletador{
+    height: 83px;
+    width: 50%;
+}
+
+#menu{
+    width: 40%;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+nav{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.botoes, .button{
+    text-decoration: none;
+    background-color: white;
+    width: 35%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+}
+.botoes:hover, .button:hover{
+    background-color: gray;
+}
+.button{
+    width: 20%;
+}
+
+section{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.art_esquerdo{
+    background-color:gainsboro;
+    height: 75%;
+    width: 50%;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+.saida{
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+}
+
+#card{
+    background-color: white;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+
+.id_da_coleta{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+.data_hora_endereco{
+    display: flex;
+    height: 100px;
+    padding: 5px;
+}
+
+.data_hora{
+    margin-right: 20px;
+    margin-top: 15px;
+    height: 50px;
+}
+
+.data{
+    display: flex;
+    height: 40px;
+}
+.data_title{
+    margin-top: 10px;
+}
+
+.title_hora{
+    margin-top: 0px;
+}
+.hora{
+    display: flex;
+    height: 20px;
+    margin-bottom: 20px;
+}
+.dia{
+    display: flex;
+    align-items: center;
+}
+
+.horario{
+    display: flex;
+    align-items: center;
+}
+.endereco{
+    border-left: solid;
+    border-left-width: 1px;
+    width: 100%;
+    padding-left: 5px;
+    padding-bottom: 15px;  
+}
+.nome_descartador{
+    display: flex;
+    border-top: solid;
+    border-top-width: 1px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+}
+
+#nome_descarte{
+    margin-bottom: 0px;
+}
+.descricao{
+    border-bottom: solid;
+    border-bottom-width: 1px;
+}
+.title_descricao{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.text_descricao{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.quantidade_residual{
+    border-bottom: solid;
+    border-bottom-width:1px;
+}
+.title_residual{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.text_input{
+    margin-left: 5px;
+    margin-top: 0px;
+}
+.input{
+    display: flex;
+    margin-left: 10px;
+}
+
+input{
+    width: 140px;
+    height: 15px;
+    margin-top: 0px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.foto_residuo{
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.title_foto{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.imagem_residuo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13px;
+    margin-top: 0px;
+}
+
+.botoes_body{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px;
+    width: 100%;
+}
+
+
+.art_direito{
+    background-color: gainsboro;
+    width: 50%;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.imagem_mapa{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.text_mapa{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 55px;
+}
